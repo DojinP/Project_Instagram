@@ -17,7 +17,7 @@
 				__fibo_freak <i class='fas fa-angle-down'></i>
 			</div>
 			<div class="previewselect">
-				<div>
+				<div>	
 					<span id="pic-div"> <img id="pic"
 						src="https://i.pinimg.com/564x/af/d1/12/afd1126225d818c7c5058e11b4b260c3.jpg">
 					</span>
@@ -85,21 +85,15 @@
 				</div>
 			</div>
 			<div class="chatroom">
-				<div class="sender" onclick="like()">hello! how are you?</div>
-				<div id="heart">❤️</div>
+			<div class="sender" onclick="like()">hello! how are you?</div>
 				<div class="receiver">heyy! much better</div>
-				<div class="sender" onclick="like()">Thats great!🥰</div>
-				<div id="heart">❤️</div>
-				<div class="receiver">How did the interview go? was it good?</div>
-				<div class="sender" onclick="like()">Yeah. I think I did
-					good🙈</div>
-				<div id="heart">❤️</div>
-				<div class="receiver">Wow I'm soo happy for you</div>
-				<div class="sender" onclick="like()">Thanks for always
-					supporting me. Means a lot💖</div>
-				<div id="heart">❤️</div>
-				<div class="receiver">your most welcome</div>
-				<div class="user-input"></div>
+				<div class="receiver">heyy! much better</div>
+				<div class="receiver">heyy! much better</div>
+				<div class="receiver">heyy! much better</div>
+				<div class="receiver">heyy! much better</div>
+				<div class="receiver">heyy! much better</div>
+				<div class="receiver">heyy! much better</div>
+				<div class="receiver">heyy! much better</div>
 			</div>
 			<div class="input-msg">
 				<input type="text" id="send-input" placeholder="type something"

@@ -57,7 +57,7 @@ nav i {
 #user img, #profile-pic img {
 	height: 100%;
 	width: 100%;
-	margin: 2px 10px;
+	margin: 2px 5px;
 	border-radius: 50%;
 }
 
@@ -79,29 +79,26 @@ main {
   	flex-direction: column;
   	align-items: flex-start;
  	justify-content: flex-start;
-  	height: 100%;
+  	height: 70%;
   	width: 40%;
-  	border-right: 1px solid #d3d3d3;
 }
 .preview> #user-name {
     display: flex;
   	flex-direction: row;
   	align-items: center;
   	width: 90%;
-  	border-right: 1px solid #d3d3d3;
-	border-left: 1px solid #d3d3d3;
-	border-bottom: 1px solid #d3d3d3;
+	
 }
  .previewselect{
     display: flex;
   	flex-direction: column;
- 	 justify-content: flex-start;
+ 	justify-content: flex-start;
   	width: 90%;
-  	border-right: 1px solid #d3d3d3;
-	border-left: 1px solid #d3d3d3;
-	border-bottom: 1px solid #d3d3d3;
 	overflow-y: scroll;
-  overflow-x: none;
+  	overflow-x: none;
+  	border-bottom: solid 1px #d3d3d3;
+  	border-left: solid 1px #d3d3d3;
+  	border-right : solid 1px #d3d3d3;
 }
 .previewselect>div{
   align-items: flex-start;
@@ -109,16 +106,21 @@ main {
   flex-direction: flex;
   justify-content: flex-start;
 }
+.previewselect>div:hover{
+	background: rgb(216, 209, 209);
+}
 .chats {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	height: 80vh;
-	width: 60%;
-	border-right: solid 1px #d3d3d3;
-	border-bottom: solid 1px #d3d3d3;
+	height: 101%;
+	width: 80%;
+	border-radius: 5%;
+	border: solid 1px #d3d3d3;
 }
 .chatroom{
+	width: 100%;
+	height: 100%;
 	overflow-y: scroll;
   	overflow-x: none;
 }
@@ -129,8 +131,6 @@ main {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	border-right: solid 1px var(- -medium-grey);
-	border-top: solid 1px #d3d3d3;
 	border-bottom: solid 1px #d3d3d3;
 }
 
@@ -145,8 +145,7 @@ main {
 	align-items: center;
 	font-weight: 400;
 	font-size: 1.5em;
-	border-top: solid 1px #d3d3d3;
-	border-bottom: solid 1px #d3d3d3;
+	border: 1px solid #d3d3d3;
 }
 
 #user-name i {
@@ -251,7 +250,7 @@ main {
 
 @media screen and (min-width: 900px) {
 	.receiver, .user-input {
-		margin-left: 28vw;
+		margin-left: auto;
 	}
 	.sender, .receiver, .user-input {
 		min-width: 140px;
@@ -280,6 +279,6 @@ main {
 		margin-left: 10px;
 	}
 	.receiver, .user-input {
-		margin-left: 70vw;
+		margin-left: auto;
 	}
 }
