@@ -81,6 +81,7 @@ main {
  	justify-content: flex-start;
   	height: 70%;
   	width: 40%;
+  	margin-left: auto;
 }
 .preview> #user-name {
     display: flex;
@@ -101,11 +102,13 @@ main {
   	border-right : solid 1px #d3d3d3;
 }
 .previewselect>div{
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: flex;
   justify-content: flex-start;
+  height: 80px;
 }
+
 .previewselect>div:hover{
 	background: rgb(216, 209, 209);
 }
@@ -161,6 +164,11 @@ main {
 
 #pic {
 	margin-left: 0.5em;
+}
+#pic-add{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
 }
 
 #chat-pic {
